@@ -1,0 +1,14 @@
+# --- Core app (Streamlit + NIfTI viewing) ---
+streamlit>=1.36
+numpy>=1.26
+nibabel>=5.2
+matplotlib>=3.8
+imageio>=2.34
+
+# --- INR / ML script (adjust if your script uses fewer libs) ---
+torch>=2.3
+einops>=0.7
+tqdm>=4.66
+scipy>=1.11
+typing_extensions>=4.9
+packaging>=24.0
